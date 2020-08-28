@@ -4,6 +4,7 @@
 html, body, #home{
 	height: 100%;
 	overflow-x: hidden;
+	overflow-y: visible;
 }
 
 
@@ -139,7 +140,7 @@ footer ul{
 }
 
 footer ul li{
-	float: right
+	float: right;
 
 }
 
@@ -185,6 +186,44 @@ h3{
 		width: 97px;
 	}
 
+	footer ul{
+	float: left;
+	}
+
+
+	div .col-md-4 ul{
+		padding-left: 0px;
+		margin-left: -15px;
+
+	}
+
+	.col-md-4{
+	}
+
+
+	.peq img{
+		width: 40px;
+		float: right;
+	}
+
+	.peq{
+		padding-top: 30px;
+	}
+
+	.logo-rodape{
+		padding-bottom: 20px;
+	}
+
+	nav.navbar-transparente {
+    padding: 2px 0px;
+    background: rgba(0,0,0,0.6);
+	}
+
+
+	.navbar-brand img{
+	width: 120px;
+	}
+
 }
 
 /*// Small devices (landscape phones, 576px and up)*/
@@ -205,9 +244,60 @@ h3{
 		padding-top: 20px;
 	}
 
-	.tamanho-peq{
-		
+	
+
+	footer ul{
+	float: left;
 	}
+
+
+	div .col-md-4 ul{
+		padding-left: 0px;
+		margin-left: -15px;
+
+	}
+
+	.col-md-4{
+	}
+
+
+	.peq img{
+		width: 40px;
+		float: right;
+	}
+
+	.peq{
+		padding-top: 30px;
+		margin-bottom: 0;
+	}
+
+	.logo-rodape{
+		padding-bottom: 20px;
+	}
+
+	.left{
+		margin-bottom: 0;
+	}
+
+
+	/*______________________________________________________*/
+
+
+
+nav.navbar-transparente {
+    padding: 2px 0px;
+    background: rgba(0,0,0,0.6);
+}
+
+
+.navbar-brand img{
+	width: 120px;
+}
+
+
+
+
+	
 }
 
 /*// Medium devices (tablets, 768px and up)*/
