@@ -23,50 +23,52 @@
   <body>
 
     <!-- CABEÇALHO -->
-    <header class="tamanho-peq">
-      <nav  class="fixed-top navbar navbar-expand-md navbar-dark navbar-transparente">
+    <header class="tamanho-peq" style="">
 
-        <div class="container">
+      <nav style="z-index: -1;"  class="fixed-top navbar navbar-expand-md navbar-dark navbar-transparente">
+
+        <div  class="container">
           <!-- LOGO -->
-          <a href="index.html" class="navbar-brand pl-4">
+          <a  href="index.html" class="navbar-brand pl-4">
             <span class="d-none">Spotify</span>
-            <img src="img/spotify.svg" width="142">
+            <img id="img-peq" src="img/spotify.svg" width="142">
           </a> 
           <!-- LOGO -->  
 
-        <button class="navbar-toggler mr-4" data-toggle="collapse" data-target="#nav-principal ">
-          <i class="fas fa-bars text-white "></i>
-        </button>
+          <button class="navbar-toggler mr-4" data-toggle="collapse" data-target="#nav-principal ">
+            <i class="fas fa-bars text-white "></i>
+          </button>
 
-        <!-- MENU -->
-        <div class="collapse navbar-collapse pl-4" id="nav-principal">
-          <ul class="navbar-nav ml-auto text-light  font-weight-bold">
+          <!-- MENU -->
+          <div class="collapse navbar-collapse pl-4" id="nav-principal">
+            <ul class="navbar-nav ml-auto text-light  font-weight-bold">
 
-            <li class="nav-item">
-              <a class="nav-link " href="">Premium</a>
-            </li>
+              <li class="nav-item">
+                <a class="nav-link " href="">Premium</a>
+              </li>
 
-            <li class="nav-item">
-              <a class="nav-link " href="">Ajuda</a>
-            </li>
+              <li class="nav-item">
+                <a class="nav-link " href="">Ajuda</a>
+              </li>
 
-            <li class="nav-item">
-              <a class="nav-link " href="">Baixar</a>
-            </li>
+              <li class="nav-item">
+                <a class="nav-link " href="">Baixar</a>
+              </li>
 
-            <li class="nav-item divisor">
+              <li class="nav-item divisor">
+                
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link " href="">Inscreva-se</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link " href="">Entrar</a>
+              </li>          
               
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link " href="">Inscreva-se</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link " href="">Entrar</a>
-            </li>          
-            
-          </ul>
+            </ul>
+          </div>
         </div>
         <!-- FIM MENU -->       
 
@@ -76,12 +78,12 @@
     
 
     <!-- INICIO HOME -->
-    <section id="home" class="d-flex">
-      <div class="container align-self-center">
+    <section  id="home" class="d-flex">
+      <div style="z-index: -2" class="container align-self-center">
         <div class="row">
 
           <div class="col-md-12 capa">
-            <h1>Música para todos</h1>
+            <h1 >Música para todos</h1>
             <a href="" class="btn btn-custom btn-lg btn-roxo">
               Aproveite o Spotify Free
             </a>
@@ -99,11 +101,11 @@
 
     <!-- INICIO SERVIÇOS -->
     <section id="servicos" class="caixa">
-      <div class="container">
-        <div class="row">
+      <div class="container " >
+        <div class="row" >
 
             <!-- INICIO -->
-            <div class="col-md-6">
+            <div class="col-md-6" >
 
               <div class="row albuns"> 
                 <div class="col-md-6">
@@ -225,7 +227,7 @@
               
             </ul>
           </div>
-          <div class="col-md-2 direita">
+          <div class="col-md-2 direita col-mover">
             <h4>comunidades</h4>
             <ul class="navbar-nav">
 
