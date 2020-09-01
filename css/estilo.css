@@ -2,12 +2,17 @@
 
 
 html, body, #home{
+	position: relative;
 	height: 100%;
 	overflow-x: hidden;
+	z-index: -2;
 
 }
 
-
+section#home.d-flex{
+	position: relative;
+	z-index: -2;
+}
 
 
 body{
