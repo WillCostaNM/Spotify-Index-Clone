@@ -3,4 +3,4 @@ Page index Spotify clone
 
 👇
 
-https://obscurewillian.github.io/Spotify-Index-Clone/
+https://spotify-index-clone.vercel.app/
